@@ -1,0 +1,24 @@
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; // div needs a min-height for flex-box to center vertically
+
+  h2 {
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  button {
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 0.75rem 4rem;
+    border: none;
+    background-color: #4D5B9E;
+    color: white;
+  }
+}
+
